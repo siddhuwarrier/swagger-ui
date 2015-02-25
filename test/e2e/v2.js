@@ -5,8 +5,8 @@ var path = require('path')
 
 var dist = path.join(__dirname, '..', '..', 'dist');
 var specs = path.join(__dirname, '..', '..', 'test', 'specs');
-var DOCS_PORT = 8080;
-var SPEC_SERVER_PORT = 8081
+var DOCS_PORT = 8088;
+var SPEC_SERVER_PORT = 8086
 
 var headers = {
   'Access-Control-Allow-Origin': '*',
