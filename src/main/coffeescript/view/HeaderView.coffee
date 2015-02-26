@@ -37,7 +37,7 @@ class HeaderView extends Backbone.View
     )
 
   showSelectedApi: (e) ->
-    selectedText = $('#select_baseUrl option').filter(':selected').text()
+    selectedText = $('#select_baseUrl option').filter(':selected').val()
     if  selectedText == "Other"
      @showInputTextBox()
     else
